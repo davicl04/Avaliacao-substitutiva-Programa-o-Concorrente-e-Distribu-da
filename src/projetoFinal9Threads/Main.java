@@ -44,7 +44,7 @@ public class Main {
     );
 
     public static void main(String[] args) {
-        int numThreads = 3;
+        int numThreads = 9;
         int chunkSize = COORDINATES.size() / numThreads;
         Map<String, dadosClimaticos> mapaDadosClimaticos = Collections.synchronizedMap(new HashMap<>());
 
